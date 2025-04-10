@@ -60,11 +60,12 @@ const Hero = () => {
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end animate-fade-in">
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 blur-lg opacity-30"></div>
-              <div className="relative overflow-hidden rounded-full border-4 border-purple-500/30 bg-dark-100 h-64 w-64 md:h-80 md:w-80">
+              <div className="relative overflow-hidden rounded-full border-4 border-purple-500/30 bg-dark-100 h-80 w-80 md:h-96 md:w-96">
                 <img 
                   src="/lovable-uploads/e5305e66-d871-4779-9edc-de3b2978f347.png" 
                   alt="Shubham Thakur" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center transform scale-110"
+                  style={{ objectPosition: "center 30%" }}
                 />
               </div>
             </div>
