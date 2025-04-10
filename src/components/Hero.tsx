@@ -1,5 +1,5 @@
 
-import { ArrowRight, Download, GitHub, ExternalLink } from "lucide-react";
+import { ArrowRight, Download, Github, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useState, useEffect } from "react";
@@ -116,7 +116,7 @@ const Hero = () => {
             
             <div className="flex gap-4 pt-4 animate-fade-in" style={{ animationDelay: "1s" }}>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <GitHub className="h-6 w-6 hover:scale-110 transition-transform" />
+                <Github className="h-6 w-6 hover:scale-110 transition-transform" />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <ExternalLink className="h-6 w-6 hover:scale-110 transition-transform" />
