@@ -64,8 +64,8 @@ const Hero = () => {
                 <img 
                   src="/lovable-uploads/e5305e66-d871-4779-9edc-de3b2978f347.png" 
                   alt="Shubham Thakur" 
-                  className="w-full h-full object-cover object-center transform scale-110"
-                  style={{ objectPosition: "center 30%" }}
+                  className="w-full h-full object-cover"
+                  style={{ objectPosition: "center 15%", transform: "scale(0.95)" }}
                 />
               </div>
             </div>
